@@ -6,6 +6,7 @@ import '@/App.css';
 import UseStateExample from '@/components/UseStateExample';
 import UseReducerExample from '@/components/UseReducerExample';
 import UseEffectExample from '@/components/UseEffectExample';
+import UseContextExample from './components/useContextExample';
 
 const App: FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: FC = () => {
       <UseStateExample />
       <UseReducerExample />
       <UseEffectExample />
+      <UseContextExample />
     </>
   );
 };
