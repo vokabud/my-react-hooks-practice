@@ -1,8 +1,11 @@
 import { FC } from 'react';
+import { CssBaseline } from '@mui/material';
+
+import '@/App.css';
+
 import UseStateExample from '@/components/UseStateExample';
 import UseReducerExample from '@/components/UseReducerExample';
-import { CssBaseline } from '@mui/material';
-import '@/App.css';
+import UseEffectExample from '@/components/UseEffectExample';
 
 const App: FC = () => {
   return (
@@ -10,6 +13,7 @@ const App: FC = () => {
       <CssBaseline />
       <UseStateExample />
       <UseReducerExample />
+      <UseEffectExample />
     </>
   );
 };
