@@ -4,7 +4,6 @@ import { Container, TextField, Typography } from '@mui/material';
 const UseStateExample: FC = () => {
     const [inputValue, setInputValue] = useState<string>('');
 
-
     const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setInputValue(event.target.value);
     };

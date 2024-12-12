@@ -8,6 +8,7 @@ import UseReducerExample from '@/components/UseReducerExample';
 import UseEffectExample from '@/components/UseEffectExample';
 import UseContextExample from '@/components/useContextExample';
 import UseRefExample from '@/components/UseRefExample';
+import UseMemoExample from './components/UseMemoExample';
 
 const App: FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: FC = () => {
       <UseEffectExample />
       <UseContextExample />
       <UseRefExample />
+      <UseMemoExample />
     </>
   );
 };
